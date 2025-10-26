@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.summary-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.inside-card{
+  box-shadow: 5px 5px 5px gray;
+  padding: 20px;
+}
+.card-summary-para {
+  color: #616e7c;
+}
+.amount {
+  color: #171f46;
+  font-weight: bold;
+}
+.checkout-button {
+  height: 30px;
+  width: 100px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 5px;
+}
